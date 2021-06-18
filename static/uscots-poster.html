@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>GitHub and intro stats: Technology to support group and project-based learning</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Nicholas J. Horton and Maria Tackett" />
+    <script src="libs/header-attrs-2.7/header-attrs.js"></script>
+    <link rel="stylesheet" href="poster.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# GitHub and intro stats: Technology to support group and project-based learning
+### Nicholas J. Horton and Maria Tackett
+### USCOTS, June 2021
+
+---
+
+
+
+
+
+
+
+
+## Motivation
+
+.vocab[GitHub] is a powerful version control tool that supports collaboration and reproducibility 
+
+.pull-left[
+[Beckman et al., 2021](https://doi.org/10.1080/10691898.2020.1848485) and [Fiksel et al., 2019](https://doi.org/10.1080/10691898.2019.1617089) demonstrate the feasibility and value of including Git and GitHub in statistics and data science courses
+
+- Free access available for educational purposes
+- Focus on teaching basic functionality
+]
+
+.pull-right[
+&lt;img src="github1.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+---
+
+## Teaching GitHub to expand opportunities
+
+By teaching GitHub early...
+
+- we're preparing students for future opportunities and making them more competitive when they apply to internships and jobs. 
+
+- we can help make the pool of undergraduates with these technical skills more broad and diverse.
+
+- we expose them to tools for reproducible analysis and workflow.
+
+- they can leverage more sophisticated use in later courses.
+
+---
+
+## Why GitHub in Intro Stats?
+
+- version control is an important component of reproducibility
+- revised GAISE College report (2016) notes the importance of teaching the entire data analysis cycle
+- outline a "Minimal GitHub" to support a group and project-based introductory statistics class
+- focuses on supporting collaboration and interactions between students and with instructor
+- goal: not to cognitively overload students 
+
+
+---
+
+## Methods
+
+- results from a January (intensive online) introductory statistics course (n=21 students)
+- used a teaching method due to Katie Kinnaird (personal communication)
+- GitHub used to facilitate group and individual project deliverables and foster discussions
+- focus on student experience
+- data included mid- and end-of-semester assessments and GitHub records
+- project approved by Amherst College IRB
+
+
+---
+
+## Methods (cont.)
+
+- GitHub introduced on day one of class (only web interface)
+- clone repo and make commits using GitHub (day two)
+- a little bit more (day three)
+- for group work, roles rotated with one person responsible for commits each assignment (to minimize merge conflicts)
+- for individual projects, instructor provided file structure and used issues for all deliverables
+- the `ghclass` package used to interact with repositories
+
+
+---
+
+## Methods (cont.)
+
+- authors handcoded the text responses to the survey questions:
+  - "What has your experience been like with Github" (mid-semester)
+  - "What did you think about GitHub" (end-of-semester)
+  - unable to link the responses at each time point
+  - create three indicators of `comfort` with GitHub (yes, neutral, or no), `useful` (yes, neutral, or no), and `sentiment` (positive, neutral, negative)
+- high level analysis of GitHub commits, issues, comments, and merge conflicts
+
+
+---
+
+## Results
+
+There were **29 total repositories** created during the semester. Each student had access to 
+
+- 1 group repository (about 3 members per group)
+- 1 individual repository 
+
+
+.pull-left[
+
+.center[
+.vocab[Commits]
+]
+
+
+|Type       | Mean| Median|   SD|
+|:----------|----:|------:|----:|
+|Group      | 11.5|      7| 10.0|
+|Individual | 12.4|     11|  5.9|
+]
+
+.pull-right[
+
+.center[
+.vocab[Issues]
+]
+
+
+|Type      | Mean| Median|  SD|
+|:---------|----:|------:|---:|
+|Initiated |  2.7|    2.5| 1.3|
+|Comments  |  8.6|    7.0| 5.4|
+]
+
+---
+
+## Student sentiment
+
+.vocab[Mid-semester (n = 21)]
+
+- all **9** students who had positive sentiment about GitHub wrote positive or neutral comments about its usefulness
+  - true even if they were not yet comfortable using it
+
+--
+
+.vocab[End-of-semester (n = 15)]
+
+- **9** students had  positive sentiment about GitHub, saw its usefulness, and were comfortable using it
+- **2** students had positive sentiment about GitHub, were comfortable using it, but felt neutral about its usefulness
+
+---
+
+## Student sentiment
+
+&lt;img src="uscots-poster_files/figure-html/unnamed-chunk-5-1.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+--
+
+.alert[
+.center[
+Get student buy-in on the usefulness of GitHub early in the semester
+]
+]
+
+---
+
+## Conclusions and Takehomes
+
+- only teach **basic GitHub functionality** in intro courses 
+  - reinforce "pull/commit/push" (very important for group work)
+
+- **merge conflicts** happened but imposed a relatively minor challenge
+
+- explain the **value of learning GitHub** to prepare for internships, research opportunities, and future careers
+
+- though there is a relatively steep learning curve, **student feedback was generally positive** by the end of the semester
+
+---
+
+## Resources
+
+- https://nicholasjhorton.github.io/Minimal-GitHub/ (other resources)
+- https://www.projecttier.org/fellowships-and-workshops/2021-spring-symposium/ (TIER Symposium on teaching reproducibility)
+- https://nhorton.people.amherst.edu/call_reproducibility.pdf (Call for papers, teaching reproducibility and responsible workflow)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "%current%",
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

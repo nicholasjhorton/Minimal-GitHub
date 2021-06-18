@@ -142,6 +142,17 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
   font-size: 22pt;
 }
 
+.remark-slide-content:after {
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    right: 810px;
+    height: 70px;
+    width: 81px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("img/sta210-sticker-icon.png");
+}
 
 .remark-slide-number {
   font-size: 12pt;

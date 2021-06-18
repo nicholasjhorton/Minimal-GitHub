@@ -6,7 +6,7 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\nWelcome to the Minimal GitHub project.\nThis site is designed to provided more resources for instructors to incorporate GitHub into their statistics and data science courses.\nFor more information please contact Nicholas Horton (Amherst College).\n\n\n\n",
-      "last_modified": "2021-06-18T15:24:35-04:00"
+      "last_modified": "2021-06-18T15:28:05-04:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,7 @@
       "description": "Welcome to the website.\n",
       "author": [],
       "contents": "\nWelcome to the Minimal GitHub project.\nThis website is designed to provided more resources for instructors to incorporate GitHub into their statistics and data science courses.\nTalks\nGitHub and intro stats: technology to support group and project-based learning, Horton and Tackett (US Conference on Teaching Statistics, 2021)\nAbstract: GitHub is a powerful version control tool that supports collaboration and reproducibility. Beckman et al, 2021 and Fiksel et al, 2019 demonstrated the feasibility and desirability of incorporating GitHub into intermediate and upper-level statistics and data science courses. We describe a project- and group-based learning introductory statistics course (n=21 students) where GitHub was used to facilitate group and individual project deliverables and to foster discussions and feedback. The focus of our poster is the student experience, since understanding the experience from their perspective can provide insight how to teach GitHub effectively. Assessments regarding GitHub included a mid-semester survey, an assessment near the end of the semester, and end of semester evaluations. In addition, commit (change) history was recorded for each of the group and individual GitHub repositories. While some reported frustration, student feedback was in general fairly positive with many describing GitHub as useful or straightforward. We intend that participants will leave with (1) additional motivation for exploring the use of version control tools in their courses, (2) guidance about how to incorporate GitHub into an introductory statistics course, and (3) a sense for how students used GitHub and reacted to its use.\nGitHub resources\nImplementing version control with Git and GitHub as a learning objective in statistics and data science courses, Beckman et al (JSDSE, 2021)\nHappy Git and GitHub for the useR, Bryan (2021)\nUsing GitHub Classroom to teach statistics, Fiksel et al (TAS, 2019\nGitHub for Education\nData Science Resources\nDSC-WAV project and related paper\nTwo Year College Data Science Summit\nData Science for Undergraduates (NASEM 2018)\nNASEM Roundtable on Data Science Postsecondary Education\nIntegrating computing in the statistics and data science curriculum (JSDSE)\nBroadening Participation\nECEP Alliance\nCOPSS DEI Task Force\nAcknowledgements\nLast updated June 18, 2021\n\n\n\n",
-      "last_modified": "2021-06-18T15:24:36-04:00"
+      "last_modified": "2021-06-18T15:28:06-04:00"
     }
   ],
   "collections": []

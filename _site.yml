@@ -1,0 +1,12 @@
+name: "Minimal GitHub for Teaching"
+title: "Nicholas Horton and Maria Tackett"
+description: |
+  Resources for teaching introductory statistics and data science with GitHub
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: distill::distill_article

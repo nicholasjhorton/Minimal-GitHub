@@ -1,0 +1,15 @@
+---
+title: "About this site"
+description: |
+  Some additional details about the website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Welcome to the Minimal GitHub project.
+
+This site is designed to provided more resources for instructors to incorporate GitHub into their statistics and data science courses.
+
+For more information please contact [Nicholas Horton (Amherst College)](https://www.amherst.edu/people/facstaff/nhorton).

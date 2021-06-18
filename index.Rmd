@@ -1,0 +1,48 @@
+---
+title: "Minimal GitHub"
+description: |
+  Welcome to the website.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+```
+
+
+Welcome to the Minimal GitHub project.
+
+This website is designed to provided more resources for instructors to incorporate GitHub into their statistics and data science courses.
+
+## Talks
+
+- [GitHub and intro stats: technology to support group and project-based learning](XX TO BE POSTED XX), Horton and Tackett (US Conference on Teaching Statistics, 2021)
+
+Abstract: GitHub is a powerful version control tool that supports collaboration and reproducibility. Beckman et al, 2021 and Fiksel et al, 2019 demonstrated the feasibility and desirability of incorporating GitHub into intermediate and upper-level statistics and data science courses. We describe a project- and group-based learning introductory statistics course (n=21 students) where GitHub was used to facilitate group and individual project deliverables and to foster discussions and feedback. The focus of our poster is the student experience, since understanding the experience from their perspective can provide insight how to teach GitHub effectively. Assessments regarding GitHub included a mid-semester survey, an assessment near the end of the semester, and end of semester evaluations. In addition, commit (change) history was recorded for each of the group and individual GitHub repositories. While some reported frustration, student feedback was in general fairly positive with many describing GitHub as useful or straightforward. We intend that participants will leave with (1) additional motivation for exploring the use of version control tools in their courses, (2) guidance about how to incorporate GitHub into an introductory statistics course, and (3) a sense for how students used GitHub and reacted to its use.
+
+## GitHub resources
+
+- [Implementing version control with Git and GitHub as a learning objective in statistics and data science courses](https://www.tandfonline.com/doi/full/10.1080/10691898.2020.1848485), Beckman et al (JSDSE, 2021)
+- [Happy Git and GitHub for the useR](https://happygitwithr.com), Bryan (2021)
+- [Using GitHub Classroom to teach statistics](https://arxiv.org/abs/1811.02021), Fiksel et al (TAS, 2019
+
+
+
+## Data Science Resources
+
+- [DSC-WAV project](http://dsc-wav.github.io/www/) and related [paper](https://hdsr.mitpress.mit.edu/pub/nvflcexe/release/1)
+- [Two Year College Data Science Summit](https://www.amstat.org/ASA/Education/Two-Year-College-Data-Science-Summit.aspx)
+- [Data Science for Undergraduates (NASEM 2018)](https://nas.edu/envisioningds)
+- [NASEM Roundtable on Data Science Postsecondary Education](https://www.nationalacademies.org/event/06-12-2019/roundtable-on-data-science-postsecondary-education-meeting-11)
+- [Integrating computing in the statistics and data science curriculum (JSDSE)](https://www.tandfonline.com/doi/full/10.1080/10691898.2020.1870416)
+
+## Broadening Participation
+
+- [ECEP Alliance](https://ecepalliance.org)
+- [COPSS DEI Task Force](https://community.amstat.org/copss/who/dei)
+
+
+## Acknowledgements
+
+Last updated June 18, 2021
